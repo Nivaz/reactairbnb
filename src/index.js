@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//components
+import Navbar from './components/Navbar';
+import Card from './components/Card';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    <Navbar />
+    <Card />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
